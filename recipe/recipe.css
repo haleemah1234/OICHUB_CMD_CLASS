@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 90px;
+    flex-direction: wrap;
+}
+
+.fa-regular {
+   font-size: 30px;
+   margin-top: 22px;
+   color: blue;
+}
+
+.list {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.link {
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#bar {
+    padding-top: 33px;
+    display: none;
+}
+
+#items {
+    display: flex;
+}
+
+
+body {
+    /* min-height: 600px; */
+    background-color: bisque;
+    /* margin: auto; */
+    /* margin-top: 50px; */
+    flex-direction: nowrap;
+    width: 100%;
+
+}
+
+.images img {
+    border-radius: 15px;
+    width: 360PX;
+    height: 310px;
+}
+
+#f-images {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+    justify-content: center;
+
+}
+
+.images h1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.images h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: blue;
+}
+
+.btn {
+    width: 190px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    margin: 45px;
+    margin-top: 10px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    nav {
+        gap: 5px;
+    }
+
+    #items {
+        gap: 5px;
+    }
+
+    .list {
+        padding: 2px;
+    }
+
+    .link {
+        font-size: 20px;
+    }
+
+    .fa-regular {
+        width: 50px;
+        height: 60px;
+        margin-top: 5px;
+        /* display: none; */
+        /* border-radius: 100%; */
+    }
+
+    #bar {
+        padding-top: 8px;
+        /* display: none; */
+        display: block;
+    }
+    #f-images {
+        flex-wrap: wrap;
+
+    }
+
+    body {
+       margin: auto;
+       text-align: center;
+    }
+
+    .images img {
+        width: 300px;
+    }
+
+    #spag {
+        text-align: center;
+    }
+
+
+
+}
